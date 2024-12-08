@@ -14,7 +14,7 @@ find_package(geometry_msgs REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "srv/GetPlan.srv"
+  "srv/SetPlan.srv"
   "msg/BezierCurve.msg"
   "msg/BezierPlan.msg"
   DEPENDENCIES geometry_msgs
