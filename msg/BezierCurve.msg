@@ -1,4 +1,6 @@
 # BezierCurve.msg
 
 # A list of control points for the Bezier curve
-geometry_msgs/Point[] control_points
+float32[] x_cp
+float32[] y_cp
+float32[] z_cp
