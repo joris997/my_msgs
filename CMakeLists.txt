@@ -17,6 +17,9 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/SetPlan.srv"
   "msg/BezierCurve.msg"
   "msg/BezierPlan.msg"
+
+  "srv/SetVerbosePlan.srv"
+  "msg/VerboseBezierPlan.msg"
   DEPENDENCIES geometry_msgs
  )
 # ament_target_dependencies(${PROJECT_NAME} geometry_msgs)
