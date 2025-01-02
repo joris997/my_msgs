@@ -1,4 +1,5 @@
 # BezierPlan.msg
+uint64 timestamp
 
 # an array of BezierCurve messages
 BezierCurve[] rvar
