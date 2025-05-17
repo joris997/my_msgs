@@ -1,4 +1,4 @@
 # StampedBool.msg
 uint64 timestamp
-bool data
+bool data #[2] data
 float64 t
